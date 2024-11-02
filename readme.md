@@ -1,6 +1,6 @@
-## Repositório criado para aprender sobre GIT e Github com o professor Luciano Lopes
----
-### testando a ferramenta
+# Repositório criado para aprender sobre GIT e Github com o professor Luciano Lopes
+
+## - testando a ferramenta
 1. Git init
 1. Git Status
 1. Git add
@@ -16,8 +16,30 @@
 1. Git merge
 
 --- 
+---
+## - Títulos e Estilos de texto
+
+# * Título 1  	
+## * Título 2  
+**Negrito**  
+*Itálico*  
+***Negrito e itálico***  
+~~Taxado~~  
+`Código em linha`  
+[Texto do link](https://www.github.com)
+> Bloco de citação  
+- item ou  
+* item Lista não ordenada  
+1. Lista ordenada
+1. Lista ordenada
+
+
+
+---
+---
 ## Emojis
 :smile:	 :thumbsup: 	:rocket:	 :tada:	
+---
 ---
 ## Cores 
 <span style="color:red">Texto em vermelho</span>   
@@ -37,12 +59,42 @@
 <https://url.com>  
 
 --- 
+## Blocos colapsáveis **ocultar** ou **expandir**
+### Esse comando é muito útil para esconder informações grandes ou adicionais, como seções de instruções detalhadas.
 <details>
   <summary>Clique para expandir</summary>
    
    ## Lista de tarefas  
    - [ ] Tarefa pendente  
-   - [x] Tarefa Realizada      
+   - [x] Tarefa Realizada  
+
+   ```sql
+   -- Seleciona todos os dados da tabela 'clientes'
+   SELECT *
+   FROM financeiro
+   WHERE boleto > 30000
+   ORDER BY valor;
+   -- Expandir ou retrair
+   ```    
    ##### caixa marcada e desmarcada   
   
 </details>
+
+---   
+
+---
+## 1. Referenciação de linguagem de programação
+
+```sql
+-- Seleciona todos os dados da tabela 'clientes'
+SELECT *
+FROM clientes
+WHERE idade > 30
+ORDER BY nome;
+```
+---
+---
+
+
+
+
